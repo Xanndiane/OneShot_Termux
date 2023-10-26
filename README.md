@@ -5,34 +5,12 @@
  - Python 3.6 and above;
 # Setup
 
-## Termux
+## [Termux](https://termux.com/)
+Please note that root access is required.  
 **Installing**
 ```
 curl -sSf https://raw.githubusercontent.com/krolchonok/OneShot_Termux/master/install.sh | bash
 ```
-
-
-## [Termux](https://termux.com/)
-Please note that root access is required.  
-
-#### Using installer
- ```
- curl -sSf https://raw.githubusercontent.com/drygdryg/OneShot_Termux_installer/master/installer.sh | bash
- ```
-#### Manually
-**Installing requirements**
- ```
- pkg install -y root-repo
- pkg install -y git tsu python wpa-supplicant pixiewps iw openssl
- ```
-**Getting OneShot**
- ```
- git clone --depth 1 https://github.com/drygdryg/OneShot OneShot
- ```
-#### Running
- ```
- sudo python OneShot/oneshot.py -i wlan0 --iface-down -K
- ```
 
 # Usage
 ```
