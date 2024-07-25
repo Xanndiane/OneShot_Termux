@@ -1,7 +1,7 @@
 #!/bin/bash
 pkg install -y root-repo
 pkg install -y git tsu python wpa-supplicant pixiewps iw openssl
-git clone https://github.com/Xanndiane/OneShot
+git clone https://github.com/Xanndiane/OneShot_Termux
 cd OneShot
 chmod +x oneshot.py install.sh launchpixie.sh
 
